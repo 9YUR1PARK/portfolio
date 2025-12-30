@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--
+  <meta name="robots" content="All">
+  <meta name="Yeti" content="index, follow">
+  <meta name="Yeti" content="All">
+  <meta name="googlebot" content="All">
+  <meta name="googlebot" content="index, follow">
+  <meta name="daum" content="All">
+  <meta name="daum" content="index, follow">
+  <meta name="title" content="웹퍼블리셔 - 박규리 포트폴리오">
+  <meta name="description" content="웹퍼블리셔 박규리입니다. 포트폴리오 방문을 환영">
+  <meta name="keywords" content="웹퍼블리셔, 대구 퍼블리셔">
+  <meta name="author" content="박규리">
+  <meta name="content-language" content="kr">
+  -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Portfolio">
+  <meta property="og:title" content="Portfolio">
+  <meta property="og:description" content="박규리 포트폴리오"> 
+  <meta property="og:image" content="images/og-image.png">
+  <meta property="og:image:width" content="400">
+  <meta property="og:image:height" content="300">
+
+  <link rel="icon" href="favicon.ico">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <ul>
+      <li>ABOUT ME</li>
+      <li>PUBLISHING</li>
+      <li>FRONTEND</li>
+      <li>DESIGN</li>
+    </ul>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>PORTFOLIO</h1>
+      <div class="hero-box">
+        <!-- ht: hero-text / hi: hero-image -->
+        <div class="hero-item ht-archive"><div>THE <span>ARCHIVE</span><br> OF MY <span>WORKS</span></div></div>
+        <div class="hero-item hi-laptop"><img src="images/hero-laptop.png" alt="laptop"></div>
+        <div class="hero-item ht-name"><div>PARK <span>GYURI</span></div></div>
+        <div class="hero-item hi-keyboard"><img src="images/hero-keyboard.png" alt="keyboard"></div>
+        <div class="hero-item ht-scroll"><small>SCROLL</small><span></span></div>
+        <div class="hero-item"></div>
+      </div>
+    </section>
+    <section class="about">
+      <h2 class="title" data-aos="fade-down">ABOUT ME</h2>
+      <div class="inner" data-aos="fade-up" data-aos-delay="700">
+        <div class="about-left">
+          <div class="profile">
+            <p>박규리</p>
+            <p>park9yur1@gmail.com</p>
+          </div>
+          <div class="introduction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error ipsam esse corporis beatae voluptas eum quasi eos? Id fugit distinctio cumque quos temporibus ex iusto quis iste beatae animi.</div>
+        </div>
+        <div class="about-right">
+          <div class="skills">
+            <h3>SKILLS</h3>
+            <ul>
+              <li><img src="images/about-skill-1-html.svg" alt="html"></li>
+              <li><img src="images/about-skill-2-css.svg" alt="css"></li>
+              <li><img src="images/about-skill-3-javascript.svg" alt="javascript"></li>
+              <li><img src="images/about-skill-4-jquery.svg" alt="jquery"></li>
+              <li><img src="images/about-skill-5-react.svg" alt="react"></li>
+              <li><img src="images/about-skill-6-typescript.svg" alt="typescript"></li>
+              <li><img src="images/about-skill-7-figma.svg" alt="figma"></li>
+              <li><img src="images/about-skill-8-photoshop.svg" alt="photoshop"></li>
+              <li><img src="images/about-skill-9-illustrator.svg" alt="illustrator"></li>
+            </ul>
+          </div>
+          <div class="certificate">
+            <h3>CERTIFICATE</h3>
+            <ul>
+              <li>
+                <p class="c-name">정보처리기사</p>
+                <span>한국산업인력공단</span>
+                <p class="c-date">2024.09</p>
+              </li>
+              <li>
+                <p class="c-name">웹디자인개발기능사</p>
+                <span>한국산업인력공단</span>
+                <p class="c-date">2025.09</p>
+              </li>
+              <li>
+                <p class="c-name">SQLD</p>
+                <span>한국데이터베이스진흥센터</span>
+                <p class="c-date">2024.06</p>
+              </li>
+              <li>
+                <p class="c-name">컴퓨터그래픽스기능사</p>
+                <span>한국산업인력공단</span>
+                <p class="c-date">2022.12</p>
+              </li>
+              <li>
+                <p class="c-name">GTQ 일러스트 1급</p>
+                <span>한국생산성본부(KPC)</span>
+                <p class="c-date">2022.03</p>
+              </li>
+              <li>
+                <p class="c-name">GTQ 포토샵 1급</p>
+                <span>한국생산성본부(KPC)</span>
+                <p class="c-date">2022.02</p>
+              </li>
+              <li>
+                <p class="c-name">GTQ 인디자인 1급</p>
+                <span>한국생산성본부(KPC)</span>
+                <p class="c-date">2025.12</p>
+              </li>
+              <li>
+                <p class="c-name">컴퓨터활용능력 2급</p>
+                <span>대한상공회의소</span>
+                <p class="c-date">2022.11</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="publishing">
+      <h2 class="title" data-aos="fade-right">PUBLISHING</h2>
+      <div class="work-inner inner">
+        <div class="work-left">
+          <div class="work-title">
+            <h3>PUBLISHING</h3>
+            <sub>(6)</sub>
+          </div>
+          <ul>
+            <li>명랑핫도그</li>
+            <li>한국관광공사</li>
+            <li>클론코딩 3</li>
+            <li>페어몬트 호텔</li>
+            <li>닌텐도</li>
+            <li>포트폴리오</li>
+          </ul>
+        </div>
+        <div class="work-right">
+          <div class="w-card">
+            <div class="w-card-left">
+              <div>
+                <small class="w-cate">CLONE</small>
+                <h4 class="w-title">명랑핫도그</h4>
+              </div>
+              <div>
+                <p class="w-dsc">명랑핫도그 사이트 클론코딩</p>
+                <div class="w-tags">
+                  <p>#개인작업</p>
+                  <p>#클론코딩</p>
+                </div>
+                <div class="w-btns">
+                  <a href="#">기존사이트</a>
+                  <a href="#">클론코딩</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-card-right">
+              <img src="images/publishing-1-mr.png" alt="명랑핫도그 클론코딩">
+            </div>
+          </div>
+          <div class="w-card">
+            <div class="w-card-left">
+              <div>
+                <small class="w-cate">CLONE</small>
+                <h4 class="w-title">한국관광공사</h4>
+              </div>
+              <div>
+                <p class="w-dsc">한국관광공사 사이트 클론코딩</p>
+                <div class="w-tags">
+                  <p>#개인작업</p>
+                  <p>#클론코딩</p>
+                </div>
+                <div class="w-btns">
+                  <a href="https://knto.or.kr/index" target="_blank">기존사이트</a>
+                  <a href="#">클론코딩</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-card-right">
+              <img src="images/publishing-2-knto.png" alt="한국관광공사 클론코딩">
+            </div>
+          </div>
+          <div class="w-card">
+            <div class="w-card-left">
+              <div>
+                <small class="w-cate">CLONE</small>
+                <h4 class="w-title">클론코딩3</h4>
+              </div>
+              <div>
+                <p class="w-dsc">클론코딩3 사이트 클론코딩</p>
+                <div class="w-tags">
+                  <p>#개인작업</p>
+                  <p>#클론코딩</p>
+                </div>
+                <div class="w-btns">
+                  <a href="#">기존사이트</a>
+                  <a href="#">클론코딩</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-card-right">
+              <img src="images/publishing-3-clone3.png" alt="클론코딩3 클론코딩">
+            </div>
+          </div>
+          <div class="w-card">
+            <div class="w-card-left">
+              <div>
+                <small class="w-cate">REDESIGN</small>
+                <h4 class="w-title">페어몬트 호텔 (반응형)</h4>
+              </div>
+              <div>
+                <p class="w-dsc">페어몬트 호텔 사이트 리디자인</p>
+                <div class="w-tags">
+                  <p>#개인작업</p>
+                  <p>#리디자인</p>
+                  <p>#반응형</p>
+                </div>
+                <div class="w-btns">
+                  <a href="https://fairmont-seoul.com/" target="_blank">기존사이트</a>
+                  <a href="#">리디자인</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-card-right">
+              <img src="images/publishing-4-hotel.png" alt="페어몬트호텔 리디자인">
+            </div>
+          </div>
+          <div class="w-card">
+            <div class="w-card-left">
+              <div>
+                <small class="w-cate">REDESIGN</small>
+                <h4 class="w-title">닌텐도</h4>
+              </div>
+              <div>
+                <p class="w-dsc">닌텐도 사이트 리디자인</p>
+                <div class="w-tags">
+                  <p>#팀작업</p>
+                  <p>#리디자인</p>
+                </div>
+                <div class="w-btns">
+                  <a href="https://www.nintendo.com/kr/" target="_blank">기존사이트</a>
+                  <a href="#">리디자인</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-card-right">
+              <img src="images/publishing-5-nintendo.png" alt="닌텐도 사이트 리디자인">
+            </div>
+          </div>
+          <div class="w-card">
+            <div class="w-card-left">
+              <div>
+                <small class="w-cate">DESIGN</small>
+                <h4 class="w-title">포트폴리오 (반응형)</h4>
+              </div>
+              <div>
+                <p class="w-dsc">포트폴리오 사이트 디자인</p>
+                <div class="w-tags">
+                  <p>#개인작업</p>
+                  <p>#디자인</p>
+                  <p>#반응형</p>
+                </div>
+                <div class="w-btns">
+                  <a href="#" class="pf-btn">현재 사이트</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-card-right">
+              <img src="images/publishing-6-portfolio.png" alt="포트폴리오 디자인">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="frontend">
+      <h2 class="title" data-aos="fade-right">FRONTEND</h2>
+      <div class="work-inner inner">
+        <div class="work-left">
+          <div class="work-title">
+            <h3>FRONTEND</h3>
+            <sub>(4)</sub>
+          </div>
+          <ul>
+            <li>세모디</li>
+            <li>영서기</li>
+            <li>네발자국</li>
+            <li>아누다</li>
+          </ul>
+        </div>
+        <div class="work-right">
+          <div class="w-card">
+            <div class="w-card-left">
+              <div>
+                <small class="w-cate">APP</small>
+                <h4 class="w-title">세모디</h4>
+              </div>
+              <div>
+                <p class="w-dsc">디저트를 사랑하는 사람들을 위한 완벽한 앱, <span>세상의 모든 디저트</span><br><span>(4인 팀프로젝트)</span></p>
+                <div class="w-tags">
+                  <p>#ReactNative</p>
+                  <p>#TypeScript</p>
+                  <p>#Expo</p>
+                </div>
+                <div class="w-btns">
+                  <a href="#">PLAYSTORE</a>
+                  <a href="#">NOTION</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-card-right">
+              <img src="images/front-1-semodi.png" alt="세모디">
+            </div>
+          </div>
+          <div class="w-card">
+            <div class="w-card-left">
+              <div>
+                <small class="w-cate">WEB</small>
+                <h4 class="w-title">영서기</h4>
+              </div>
+              <div>
+                <p class="w-dsc">회의 참여도를 높이고 편리함을 제공하는 <span>회의록 관리 서비스</span><br><span>(6인 팀프로젝트)</span></p>
+                <div class="w-tags">
+                  <p>#React</p>
+                  <p>#TypeScript</p>
+                  <p>#Zustand</p>
+                  <p>#Vite</p>
+                  <p>#ReactQuery</p>
+                  <p>#emotionCSS</p>
+                </div>
+                <div class="w-btns">
+                  <a href="#">NOTION</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-card-right">
+              <img src="images/front-2-youngsg.png" alt="영서기">
+            </div>
+          </div>
+          <div class="w-card">
+            <div class="w-card-left">
+              <div>
+                <small class="w-cate">WEB APP</small>
+                <h4 class="w-title">네발자국</h4>
+              </div>
+              <div>
+                <p class="w-dsc">사용자 맞춤 산책로 추천을 기반으로 한 <span>우리 동네 영역 표시 플랫폼</span><br><span>(6인 팀프로젝트)</span></p>
+                <div class="w-tags">
+                  <p>#React</p>
+                  <p>#TypeScript</p>
+                  <p>#Zustand</p>
+                  <p>#Vite</p>
+                  <p>#ReactQuery</p>
+                  <p>#TailwindCSS</p>
+                </div>
+                <div class="w-btns">
+                  <a href="#">NOTION</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-card-right">
+              <img src="images/front-3-yfp.png" alt="네발자국">
+            </div>
+          </div>
+          <div class="w-card">
+            <div class="w-card-left">
+              <div>
+                <small class="w-cate">WEB</small>
+                <h4 class="w-title">아누다</h4>
+              </div>
+              <div>
+                <p class="w-dsc">누구나 작품을 전시하고, 설명하고, <span>판매할 수 있는 서비스</span><br><span>(6인 팀프로젝트)</span></p>
+                <div class="w-tags">
+                  <p>#React</p>
+                  <p>#JavaScript</p>
+                  <p>#Zustand</p>
+                </div>
+                <div class="w-btns">
+                  <a href="#">NOTION</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-card-right">
+              <img src="images/front-4-anudar.png" alt="아누다">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="design">
+      <h2 class="title" data-aos="fade-right">DESIGN</h2>
+      <div class="work-inner inner">
+        <div class="work-left">
+          <div class="work-title">
+            <h3>DESIGN</h3>
+            <sub>(7)</sub>
+          </div>
+          <ul>
+            <li>로고</li>
+            <li>카드뉴스</li>
+            <li>배너</li>
+            <li>상세페이지</li>
+          </ul>
+        </div>
+        <div class="work-right">
+          <div class="d-card">
+            <div class="d-card-left">
+              <h4 class="cate">LOGO</h4>
+            </div>
+            <div class="d-card-right logo">
+              <div class="d-border"></div>
+              <div class="d-border"></div>
+              <div class="d-title d-border">과자점 로고</div>
+            </div>
+          </div>
+          <div class="d-card">
+            <div class="d-card-left">
+              <h4 class="cate">CARD NEWS</h4>
+            </div>
+            <div class="d-card-right cardnews">
+              <div>
+                <div class="cn cn1 d-border"></div>
+                <div class="d-title d-border">영화추천 카드뉴스</div>
+              </div>
+              <div>
+                <div class="cn cn2 d-border"></div>
+                <div class="d-title d-border">서포터즈 모집 카드뉴스</div>
+              </div>
+            </div>
+          </div>
+          <div class="d-card">
+            <div class="d-card-left">
+              <h4 class="cate">BANNER</h4>
+            </div>
+            <div class="d-card-right banner">
+              <div>
+                <div class="bn bn1 d-border"></div>
+                <div class="d-title d-border">햄버거 광고 배너</div>
+              </div>
+              <div>
+                <div class="bn bn2 d-border"></div>
+                <div class="d-title d-border">할로윈 시즌메뉴 광고 배너</div>
+              </div>
+            </div>
+          </div>
+          <div class="d-card">
+            <div class="d-card-left">
+              <h4 class="cate">DETAIL PAGE</h4>
+            </div>
+            <div class="d-card-right detailpage">
+              <div>
+                <div class="dp dp1 d-border"></div>
+                <div class="d-title d-border">뷰센 C 충치케어 치약</div>
+              </div>
+              <div>
+                <div class="dp dp2 d-border"></div>
+                <div class="d-title d-border">온베이글 크림치즈</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="popup">
+    <ul>
+      <li><img src="images/design-2cardnews-1.jpg" alt="카드뉴스 표지"></li>
+      <li><img src="images/popup-cardnews1-1.jpg" alt="카드뉴스1"></li>
+      <li><img src="images/popup-cardnews1-2.jpg" alt="카드뉴스2"></li>
+      <li><img src="images/popup-cardnews1-3.jpg" alt="카드뉴스3"></li>
+      <li><img src="images/popup-cardnews1-4.jpg" alt="카드뉴스4"></li>
+    </ul>
+    <div class="popup-close"></div>
+  </div>
+  <footer>
+    <h2 class="title">Thank You</h2>
+  </footer>
+  <div class="go-top"><span></span></div>
+
+  
+  <script>
+    AOS.init({
+      duration : 1400,
+      once: true,
+    });
+  </script>
+</body>
+</html>
