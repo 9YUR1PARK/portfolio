@@ -35,6 +35,11 @@ body {
   font-weight: 400;
 }
 
+html.hidden,
+body.hidden {
+  overflow-y: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -576,6 +581,7 @@ section.hero {
 }
 
 .design .d-card .detailpage .dp {
+  display: block;
   width: 100%;
   height: 1000px;
 }
@@ -589,12 +595,12 @@ section.hero {
 
 .design .d-card .detailpage .dp1:hover {
   background-position: center 100%;
-  transition: background-position 15s linear;
+  transition: background-position 18s linear;
 }
 
 .design .d-card .detailpage .dp2:hover {
   background-position: center 100%;
-  transition: background-position 12s linear;
+  transition: background-position 15s linear;
 }
 
 .popup {
@@ -608,9 +614,8 @@ section.hero {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* 스크롤 애니메이션 얹기 */
 .popup ul {
-  position: fixed;  
+  position: absolute;  
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -625,8 +630,41 @@ section.hero {
 }
 
 .popup ul li img {
-  width: 50%;
+  width: 40%;
   margin-bottom: 1rem;
+}
+
+.popup-scroll {
+  position: absolute;
+  bottom: calc(10vh + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: popupScrollUpDown 1s infinite alternate;
+}
+
+@keyframes popupScrollUpDown {
+  0% {
+    bottom: calc(10vh + 10px);
+  }
+  100% {
+    bottom: calc(10vh + 20px);
+  }
+}
+
+.popup-scroll span {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #FFFCF4;
+  border-bottom: 2px solid #FFFCF4;
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .popup-close {

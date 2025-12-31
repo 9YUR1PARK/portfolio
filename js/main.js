@@ -158,17 +158,15 @@ $(function () {
 
       $(".popup").show();
 
-      $("html, body").css({
-        "overflow-y": "hidden",
-      })
+      $("html").addClass("hidden");
+      $("body").addClass("hidden");
     });
   })
 
   $(".popup-close").click(() => {
     $(".popup").hide();
-    $("html, body").css({
-      "overflow-y": "scroll",
-    })
+    $("html").removeClass("hidden");
+    $("body").removeClass("hidden");
   })
 
   // GoTop 클릭시
