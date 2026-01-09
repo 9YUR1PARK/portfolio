@@ -218,6 +218,9 @@
   .frontend .w-card .w-card-left p.w-dsc span:first-child {
     display: block;
   }
+  .design .d-detail .mouse {
+    display: none;
+  }
 
 }
 

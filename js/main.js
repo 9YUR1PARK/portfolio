@@ -173,6 +173,21 @@ $(function () {
     $("body").removeClass("hidden");
   })
 
+  // 상세페이지 cursor
+  $(".d-detail .detailpage > div > a").mouseenter(function () {
+    $(".d-detail .mouse").addClass("on");
+  })
+  $(".d-detail .detailpage > div > a").mouseleave(function () {
+    $(".d-detail .mouse").removeClass("on");
+  })
+  $(".d-detail .detailpage > div > a").mousemove(function (e) {
+    const [x, y] = [e.clientX, e.clientY];
+    $(".d-detail .mouse").css({
+      "transform": `translate(${x}px, ${y - 30}px)`
+    })
+  })
+
+
   // GoTop 클릭시
   $(".go-top").click(() => {
     $("html, body").animate(
