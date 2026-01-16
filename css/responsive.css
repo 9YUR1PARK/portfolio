@@ -76,6 +76,9 @@
   .design .d-card .cardnews {
     flex-direction: column;
   }
+  .popup .popup-box ul li img {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 880px) {
@@ -221,7 +224,9 @@
   .design .d-detail .mouse {
     display: none;
   }
-
+  .popup .popup-box ul li img {
+    width: 60%;
+  }
 }
 
 /* [TODO] 500px */
@@ -318,10 +323,10 @@
   .popup ul {
     padding: 6rem 5rem;
   }
-  .popup ul li img {
-    width: 80%;
+  .popup .popup-box ul li img {
+    width: 100%;
   }
-  .popup-close {
+  .popup .popup-close {
     width: 24px;
     height: 24px;
     position: absolute;
@@ -338,6 +343,10 @@
   .w-card .w-card-left .w-tags p,
   .w-card .w-card-left .w-btns a {
     font-size: 14px;
+  }
+  .popup .popup-box ul li img {
+    width: 120%;
+    transform: translateX(-10%);
   }
 }
 

@@ -700,7 +700,7 @@ section.hero {
   margin-bottom: 0;
 }
 
-.popup-scroll {
+.popup .popup-scroll {
   position: absolute;
   bottom: calc(10vh + 10px);
   left: 50%;
@@ -733,7 +733,7 @@ section.hero {
   }
 }
 
-.popup-scroll span {
+.popup .popup-scroll span {
   display: block;
   position: absolute;
   top: 40%;
@@ -745,7 +745,7 @@ section.hero {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.popup-close {
+.popup .popup-close {
   width: 24px;
   height: 24px;
   position: absolute;
@@ -754,8 +754,12 @@ section.hero {
   cursor: pointer;
 }
 
-.popup-close::before,
-.popup-close::after {
+.popup.dp .popup-close {
+  top: 10vh;
+}
+
+.popup .popup-close::before,
+.popup .popup-close::after {
   content: '';
   display: block;
   position: absolute;
@@ -766,11 +770,11 @@ section.hero {
   background-color: #000;
 }
 
-.popup-close::before {
+.popup .popup-close::before {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.popup-close::after {
+.popup .popup-close::after {
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
