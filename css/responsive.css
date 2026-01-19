@@ -73,7 +73,8 @@
   .hero .hero-box .ht-name {
     font-size: 4.4rem;
   }
-  .design .d-card .cardnews {
+  .design .d-card .cardnews,
+  .design .d-card .poster {
     flex-direction: column;
   }
   .popup .popup-box ul li img {
@@ -103,14 +104,12 @@
     padding: 4rem 0;
   }
   .design .d-card .cardnews,
+  .design .d-card .poster,
   .design .d-card .detailpage {
     gap: 2rem;
   }
   .design .d-card .detailpage .dp {
     height: 500px;
-  }
-  .design .d-card .banner > div:last-child {
-    margin-top: 2rem;
   }
 }
 
@@ -309,7 +308,7 @@
     font-size: 18px;
     padding: 16px 20px;
   }
-  .design .d-card .cardnews, .design .d-card .detailpage {
+  .design .d-card .detailpage {
     flex-direction: column;
   }
   footer {
